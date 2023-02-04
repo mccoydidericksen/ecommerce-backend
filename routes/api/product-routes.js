@@ -23,7 +23,6 @@ router.get('/:id', async (req, res) => {
     return;
   }
   res.json(product);
-  // be sure to include its associated Category and Tag data
 });
 
 // create new product
